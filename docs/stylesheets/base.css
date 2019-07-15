@@ -13,7 +13,7 @@ a:visited {
   color: #68bdc5; }
 
 a:active {
-  color: #848a8a; }
+  color: #515252; }
 
 #contents .adoption_allset a:link {
   color: #ffffff; }
@@ -25,7 +25,7 @@ a:active {
 /*紹介　ダウンロード　採用　CSS　*/
 /*ドキュメント　サポート　サンプルエフェクト　CSS　*/
 body {
-  background-color: #e9eeee;
+  background-color: #e2e5e5;
   width: 100%;
   margin: 0px auto;
   overflow-x: hidden; }
@@ -120,7 +120,7 @@ ul li, ol li {
 /*トップ画像*/
 #contents .eyecatch .imgsize_setting1 img {
   width: 1900px;
-  height: 400px;
+  height: 300px;
   height: auto;
   display: block;
   text-align: center;
@@ -293,7 +293,7 @@ ul li, ol li {
   #contents .top_index {
     width: 100%;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 280px;
     text-align: center;
     margin-right: auto;
     margin-left: auto; }
@@ -331,12 +331,11 @@ ul li, ol li {
     align-items: center;
     height: 60px;
     padding: 0 30px;
-    top: 20px;
-    right: 0;
-    z-index: 2; }
+    top: 5px;
+    right: 0; }
   /*ヘッター のレスポンシブメニューのための設定*/
   #header .nav-toggle {
-    background-color: #e9eeee;
+    background-color: #e9eeee00;
     position: absolute;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -399,8 +398,8 @@ ul li, ol li {
     overflow: hidden; }
   /* Title設定　 */
   #contents .eyecatch p {
-    width: 100%;
-    min-width: 400px;
+    width: 80%;
+    min-width: 240px;
     position: absolute;
     top: 100px;
     left: 8%;
@@ -420,13 +419,13 @@ ul li, ol li {
     padding: 10px 20px 10px 20px;
     display: inline-block;
     vertical-align: top;
-    padding: 1em 1.5em;
+    padding: 1em 1.0em;
     background: rgba(244, 244, 245, 0.233);
     border: solid 2px #3c3f3f;
     color: #2A2A2A;
     font-weight: bold; }
   #contents .eyecatch a:hover {
-    background: #e9eeee;
+    background: #e2e5e5;
     color: #3c3f3f; }
   /* sec2の画像３枚の設定　 */
   #contents .section1_setting {
@@ -434,9 +433,9 @@ ul li, ol li {
     max-height: auto;
     display: flex;
     text-align: center;
-    background-color: #e9eeee;
+    background-color: #e2e5e5;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 280px;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -451,14 +450,14 @@ ul li, ol li {
     .start_image img {
       width: 100%;
       max-width: 600px;
-      min-width: 300px;
+      min-width: 280px;
       height: auto; }
   #contents .top_section {
-    width: 80%;
-    max-width: 600px;
-    min-width: 300px;
+    width: 60%;
+    max-width: 500px;
+    min-width: 200px;
     height: auto;
-    background-color: #3c3f3f;
+    background-color: #3d3d3d;
     text-align: center;
     margin-top: 50px;
     margin-right: auto;
@@ -466,8 +465,8 @@ ul li, ol li {
     padding-top: 20px; }
     #contents .top_section img {
       width: 60%;
-      min-width: 300px;
       max-width: 500px;
+      min-width: 200px;
       height: auto; }
   #contents .top_section p {
     width: 80%;
@@ -484,10 +483,10 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 240px;
     height: auto;
     vertical-align: top;
-    background-color: #68bdc5;
+    background-color: #d1dddd;
     margin-right: auto;
     margin-left: auto;
     margin-top: 20px;
@@ -497,15 +496,15 @@ ul li, ol li {
     font-size: 1em;
     text-align: center; }
   #contents .movie_section1 {
-    max-width: 600px;
-    min-width: 300px;
-    height: 300px;
+    max-width: 320px;
+    min-width: 200px;
+    height: auto;
     margin-right: auto;
     margin-left: auto; }
   #contents .movie_section2 {
-    max-width: 600px;
-    min-width: 300px;
-    height: 300px;
+    max-width: 320px;
+    min-width: 200px;
+    height: auto;
     margin-right: auto;
     margin-left: auto; }
   /* download_sectionsの設定　 */
@@ -515,19 +514,29 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 600px;
-    min-width: 300px;
-    background-color: #bbdada;
+    min-width: 280px;
+    background-color: #e2e5e5;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 20px;
     padding-bottom: 20px; }
+    #contents .section3_setting .download_section1 {
+      text-align: center; }
+  #contents .download_inline {
+    margin-bottom: 20px; }
+  #contents .download_section2 img {
+    width: 100%;
+    max-width: 360px;
+    min-width: 250px;
+    height: auto; }
   #contents .download_section_links {
     width: 100%;
-    min-width: 300px;
-    text-align: left;
-    padding-left: 30%;
-    padding-right: 30%; }
+    min-width: 280px;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto; }
+    #contents .download_section_links ul {
+      list-style: none; }
   /* other_sectionsの設定　 */
   #contents .section4_setting {
     width: 100%;
@@ -535,8 +544,8 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 600px;
-    min-width: 300px;
-    background-color: #848a8a;
+    min-width: 280px;
+    background-color: #d1dddd;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto; }
@@ -558,8 +567,8 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 600px;
-    min-width: 300px;
-    background-color: #68bdc5;
+    min-width: 280px;
+    background-color: #e9eeee;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -576,15 +585,19 @@ ul li, ol li {
   #contents .section5_setting .right_books {
     width: 100%;
     height: auto;
-    text-align: left;
+    text-align: center;
     padding-top: 50px;
-    padding-left: 30%; }
+    margin-right: auto;
+    margin-left: auto; }
+    #contents .section5_setting .right_books ul {
+      padding: 0px;
+      list-style: none; }
   /* news_sectionsの設定　 */
   #contents .news_section {
     width: 100%;
     max-width: 600px;
-    min-width: 300px;
-    background-color: #bbdada;
+    min-width: 280px;
+    background-color: #d1dddd;
     height: auto;
     text-align: center;
     margin-right: auto;
@@ -594,7 +607,7 @@ ul li, ol li {
     padding-bottom: 50px; }
     #contents .news_section ul, #contents .news_section li {
       width: 80%;
-      min-width: 300px;
+      min-width: 280px;
       color: #3c3f3f;
       list-style: none;
       text-align: left;
@@ -606,9 +619,9 @@ ul li, ol li {
     max-height: auto;
     display: block;
     text-align: center;
-    background-color: #e9eeee;
+    background-color: #e2e5e5;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 280px;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -647,9 +660,9 @@ ul li, ol li {
   .start_image {
     margin-top: 100px; }
     .start_image img {
-      width: 100%;
+      width: 80%;
       max-width: 600px;
-      min-width: 300px;
+      min-width: 200px;
       height: auto; }
   /*紹介*/
   #contents .introduction_section1 {
@@ -657,25 +670,35 @@ ul li, ol li {
     margin: 50px; }
   #contents .introduction_img1_1 img {
     width: 100%;
-    min-width: 320px;
+    min-width: 280px;
     height: auto; }
   #contents .introduction_img1_2 {
-    margin-top: 100px; }
+    margin-top: 50px; }
     #contents .introduction_img1_2 img {
       width: 100%;
-      min-width: 320px;
+      min-width: 280px;
       height: auto; }
     #contents .introduction_img1_2 h3 {
       text-align: center;
       margin-top: 50px;
       margin-bottom: 50px;
-      font-size: 1.5em; }
+      font-size: 1em; }
+  #contents .introduction_sec2img {
+    min-width: 280px;
+    margin-right: auto;
+    margin-left: auto; }
+    #contents .introduction_sec2img img {
+      width: 30%;
+      min-width: 150px;
+      height: auto;
+      max-width: 150px;
+      border-radius: 50%; }
   #contents .introduction_section2 {
     width: auto;
     margin-top: 30px; }
     #contents .introduction_section2 img {
       width: 100%;
-      min-width: 320px;
+      min-width: 280px;
       height: auto; }
   #contents .introduction_section3 {
     width: auto;
@@ -685,18 +708,19 @@ ul li, ol li {
       margin: 10px; }
     #contents .introduction_section3 .introduction_img3_1 img {
       width: 100%;
-      min-width: 320px;
+      min-width: 280px;
       height: auto; }
     #contents .introduction_section3 .introduction_img3_2 img {
       width: 30%;
       min-width: 150px;
       height: auto;
-      max-width: 150px; }
+      max-width: 150px;
+      border-radius: 50%; }
   /*ダウンロード*/
   #contents .download_contents_topset {
     width: 100%;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 280px;
     margin-right: auto;
     margin-left: auto; }
   #contents .download_contents_set {
@@ -705,19 +729,19 @@ ul li, ol li {
     display: flex;
     text-align: center;
     max-width: 650px;
-    min-width: 300px;
+    min-width: 280px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #e9eeee;
+    background-color: #e2e5e5;
     flex-wrap: wrap; }
   #contents .download_contents {
     width: 100%;
     max-width: 300px;
-    min-width: 250px;
+    min-width: 280px;
     height: auto;
     text-align: center;
     display: block;
-    background-color: #848a8a;
+    background-color: #515252;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -747,11 +771,11 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 650px;
-    min-width: 300px;
+    min-width: 280px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-    background-color: #bbdada;
+    background-color: #d1dddd;
     padding-bottom: 20px; }
     #contents .download_prev h2 {
       padding: 20px; }
@@ -783,7 +807,7 @@ ul li, ol li {
   #contents .adoption_title {
     width: 100%;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 280px;
     margin-right: auto;
     margin-left: auto; }
   #contents .adopted {
@@ -793,7 +817,7 @@ ul li, ol li {
     height: auto;
     text-align: center;
     color: #68bdc5;
-    background-color: #3c3f3f;
+    background-color: #3d3d3d;
     margin: 20px auto;
     padding-bottom: 20px; }
   #contents .adopted1 {
@@ -803,11 +827,12 @@ ul li, ol li {
     height: auto;
     text-align: center;
     color: #68bdc5;
-    background-color: #3c3f3f;
+    background-color: #3d3d3d;
     margin: 20px auto;
     padding-bottom: 20px; }
     #contents .adopted1 h3 {
-      padding: 20px; }
+      padding: 20px;
+      color: #68bdc5; }
   #contents .iframe {
     position: relative;
     margin-top: 3em;
@@ -865,7 +890,7 @@ ul li, ol li {
     display: block;
     text-align: left;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 280px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px; }
@@ -889,7 +914,7 @@ ul li, ol li {
     min-width: 100px;
     height: auto;
     min-height: 300px;
-    background-color: #848a8a;
+    background-color: #515252;
     margin: 20px; }
     #contents .help_sections img:hover {
       opacity: 0.5; }
@@ -909,9 +934,9 @@ ul li, ol li {
     width: 100%;
     display: block;
     text-align: left;
-    background-color: #68bdc5;
+    background-color: #d1dddd;
     max-width: 650px;
-    min-width: 300px;
+    min-width: 280px;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto; }
@@ -923,6 +948,7 @@ ul li, ol li {
       padding-top: 15px;
       padding-bottom: 15px;
       margin-top: 20px;
+      margin-bottom: 0px;
       margin-left: 50px;
       margin-right: 20px; }
   #contents .section_setting_tutorial {
@@ -931,15 +957,15 @@ ul li, ol li {
     display: flex;
     text-align: center;
     max-width: 650px;
-    min-width: 300px;
+    min-width: 280px;
     margin-right: auto;
     margin-left: auto;
     flex-wrap: wrap;
-    background-color: #68bdc5; }
+    background-color: #d1dddd; }
   #contents .tutorial_sections {
     width: 100%;
     max-width: 650px;
-    min-width: 300px;
+    min-width: 280px;
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -950,12 +976,12 @@ ul li, ol li {
       opacity: 0.5; }
   #contents .locale_sections {
     max-width: 250px;
-    min-width: 250px;
+    min-width: 280px;
     height: auto;
     min-height: 300px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #848a8a;
+    background-color: #515252;
     margin-bottom: 20px; }
     #contents .locale_sections img {
       width: 80%;
@@ -971,7 +997,7 @@ ul li, ol li {
   #contents .supprot_section {
     width: 80%;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 280px;
     display: inline-block;
     vertical-align: top; }
   #contents .supprot_section p {
@@ -983,7 +1009,7 @@ ul li, ol li {
   #contents .support_grid {
     width: 80%;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 280px;
     height: auto;
     text-align: center;
     display: block;
@@ -996,8 +1022,8 @@ ul li, ol li {
   #contents .support_bg {
     width: 100%;
     max-width: 600px;
-    min-width: 300px;
-    background-color: #bbdada;
+    min-width: 280px;
+    background-color: #d1dddd;
     margin-right: auto;
     margin-left: auto;
     background-size: 100%; }
@@ -1007,8 +1033,8 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 600px;
-    min-width: 300px;
-    background-color: #e9eeee;
+    min-width: 280px;
+    background-color: #e2e5e5;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -1017,20 +1043,20 @@ ul li, ol li {
   /*サンプルエフェクト*/
   #contents .contribute_title_bg {
     width: 100%;
-    background-color: #bbdada;
+    background-color: #d1dddd;
     padding-top: 50px;
     padding-bottom: 50px; }
   #contents .contribute_title_set {
     width: 100%;
     max-width: 600px;
-    min-width: 300px;
+    min-width: 280px;
     text-align: center;
     margin: 20px;
     margin-right: auto;
     margin-left: auto; }
   #contents .contribute_title_set .contribute_title {
     max-width: 600px;
-    min-width: 300px;
+    min-width: 280px;
     text-align: center;
     padding-bottom: 10px; }
     #contents .contribute_title_set .contribute_title p {
@@ -1070,7 +1096,7 @@ ul li, ol li {
   #contents .sample_effect p {
     width: 160px;
     height: auto;
-    background-color: #848a8a;
+    background-color: #515252;
     margin: 5px;
     padding-top: 3px; }
   #contents .sample_effect2 p {
@@ -1107,7 +1133,7 @@ ul li, ol li {
   #contents .sample_effect_next p {
     width: 160px;
     height: auto;
-    background-color: #848a8a;
+    background-color: #515252;
     margin: 5px;
     padding-top: 3px; } }
 
@@ -1166,7 +1192,7 @@ ul li, ol li {
     padding-left: 15px;
     width: 50px; }
   #header .unselected:hover {
-    background-color: #848a8a; }
+    background-color: #515252; }
   #header .unselected ul:hover {
     padding-left: 15px; }
   #header h1 {
@@ -1227,7 +1253,7 @@ ul li, ol li {
     color: #2A2A2A;
     font-weight: bold; }
   #contents .eyecatch a:hover {
-    background: #e9eeee;
+    background: #e2e5e5;
     color: #3c3f3f; }
   /* sec2の画像３枚の設定　 */
   #contents .section1_setting {
@@ -1246,7 +1272,7 @@ ul li, ol li {
     width: 80%;
     max-width: 400px;
     height: 500px;
-    background-color: #3c3f3f;
+    background-color: #3d3d3d;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -1265,65 +1291,65 @@ ul li, ol li {
     margin-left: auto;
     margin-top: 4%;
     color: #9da3a3; }
-  /* MVの設定　 */
-  #contents .section2_bg {
-    background-color: #68bdc5;
-    background-size: 100%;
-    padding: 30px; }
+  /* MVの設定　*/
   #contents .section2_setting {
-    width: 100%;
-    max-height: 450px;
-    display: flex;
-    text-align: center;
-    max-width: 1200px;
-    display: -webkit-flex;
-    -webkit-justify-content: center;
-    justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 50px; }
-  #contents .section2_setting p {
-    font-size: 1.2em;
-    text-align: center; }
-  #contents .movie_section1 {
-    max-width: 600px;
-    min-width: 300px;
-    height: 300px;
-    margin-right: auto;
-    margin-left: auto;
-    margin: 50px; }
-  #contents .movie_section2 {
-    max-width: 600px;
-    min-width: 300px;
-    height: 300px;
-    margin-right: auto;
-    margin-left: auto;
-    margin: 50px; }
-  #contents .section3_bg {
-    display: flex;
-    background-color: #bbdada;
-    background-size: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 20px; }
-  #contents .section3_setting {
     width: 100%;
     max-height: auto;
     display: flex;
     text-align: center;
-    max-width: 1200px;
+    background-color: #d1dddd;
     display: -webkit-flex;
-    flex-direction: row;
     -webkit-justify-content: center;
     justify-content: center;
+    min-height: 300px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 50px;
+    padding-bottom: 100px; }
+  #contents .section2_setting p {
+    font-size: 1.2em;
+    text-align: center; }
+  #contents .movie_section1 {
+    max-width: 70%;
+    min-width: 25%;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto; }
+  #contents .movie_section2 {
+    max-width: 70%;
+    min-width: 25%;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto; }
+  #contents .section3_bg {
+    display: flex;
+    max-width: 1200px;
+    background-size: 100%;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px; }
+    #contents .section3_bg #contents .section3_setting {
+      width: 100%;
+      max-height: auto;
+      display: flex;
+      text-align: center;
+      max-width: 1200px;
+      display: -webkit-flex;
+      flex-direction: row;
+      -webkit-justify-content: center;
+      justify-content: center;
+      margin-right: auto;
+      margin-left: auto;
+      margin-top: 50px;
+      margin-bottom: 50px; }
+      #contents .section3_bg #contents .section3_setting img {
+        margin-top: 50px; }
+  #contents .download_inline {
     margin-bottom: 50px; }
   #contents .download_section1 {
-    height: auto;
-    margin-left: auto;
-    margin-right: auto; }
+    position: absolute;
+    height: 70px;
+    left: 45%; }
   #contents .download_section1 h2 {
     margin-top: 20px;
     margin-bottom: 40px;
@@ -1331,10 +1357,11 @@ ul li, ol li {
   #contents .download_section2 {
     width: 300px;
     height: auto;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto; }
   #contents .download_section2 h3 {
-    margin-bottom: 90px; }
+    margin-bottom: 20px; }
   #contents .download_section3 h3 {
     margin-bottom: 20px; }
   #contents .download_section3 p {
@@ -1342,6 +1369,7 @@ ul li, ol li {
   #contents .download_section3 {
     width: 300px;
     height: auto;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto; }
   #contents .download_section_links {
@@ -1349,13 +1377,14 @@ ul li, ol li {
     min-width: 300px;
     text-align: left;
     margin: 30px; }
+    #contents .download_section_links ul {
+      list-style: none; }
   /* other_sectionsの設定　 */
   #contents .section4_bg {
     display: flex;
-    background-color: #848a8a;
+    background-color: #d1dddd;
     background-size: 100%;
     margin-top: 50px;
-    margin-bottom: 50px;
     padding: 20px; }
   #contents .section4_setting {
     width: 100%;
@@ -1380,9 +1409,8 @@ ul li, ol li {
     padding-bottom: 50px; }
   #contents .section5_bg {
     display: flex;
-    background-color: #68bdc5;
+    background-color: #e9eeee;
     background-size: 100%;
-    margin-top: 50px;
     padding: 20px; }
   #contents .section5_setting {
     width: 100%;
@@ -1428,10 +1456,8 @@ ul li, ol li {
     margin-right: auto; }
   /* news_sectionsの設定　 */
   #contents .news_section_bg {
-    background-color: #bbdada;
+    background-color: #d1dddd;
     background-size: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
     padding: 20px; }
   #contents .news_section {
     width: 100%;
@@ -1494,25 +1520,40 @@ ul li, ol li {
   /*紹介*/
   #contents .introduction_section1 {
     margin: 50px; }
-  #contents .introduction_img1_1 img {
-    width: 100%;
-    min-width: 320px;
-    height: auto; }
+  #contents .introduction_img1_1 {
+    margin-bottom: 50px; }
+    #contents .introduction_img1_1 img {
+      width: 100%;
+      min-width: 280px;
+      height: auto;
+      max-width: 50%; }
   #contents .introduction_img1_2 {
     margin-top: 50px; }
     #contents .introduction_img1_2 img {
       width: 100%;
-      min-width: 320px;
+      min-width: 280px;
       height: auto; }
     #contents .introduction_img1_2 h3 {
       text-align: center;
       margin-bottom: 50px;
       font-size: 1.5em; }
+  #contents .introduction_sec2img {
+    width: 50%;
+    min-width: 200px;
+    height: 150px;
+    padding-top: 130px; }
+    #contents .introduction_sec2img img {
+      width: 50%;
+      min-width: 150px;
+      height: auto;
+      max-width: 200px;
+      border-radius: 50%; }
   #contents .introduction_section2 {
+    margin: 50px;
     width: auto; }
     #contents .introduction_section2 img {
       width: 100%;
-      min-width: 320px;
+      min-width: 280px;
       height: auto; }
   #contents .introduction_section3 {
     width: auto;
@@ -1521,17 +1562,14 @@ ul li, ol li {
     z-index: 1; }
     #contents .introduction_section3 .introduction_img3_1 img {
       width: 100%;
-      min-width: 320px;
+      min-width: 280px;
       height: auto;
       z-index: 1; }
     #contents .introduction_section3 .introduction_img3_2 img {
       width: 30%;
       min-width: 150px;
       height: auto;
-      position: absolute;
       max-width: 100px;
-      left: 70%;
-      top: 1800px;
       z-index: 5;
       border-radius: 50%; }
     #contents .introduction_section3 p {
@@ -1574,7 +1612,7 @@ ul li, ol li {
     height: auto;
     text-align: center;
     display: block;
-    background-color: #848a8a;
+    background-color: #515252;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -1594,7 +1632,7 @@ ul li, ol li {
     min-width: 300px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #bbdada;
+    background-color: #d1dddd;
     flex-wrap: wrap;
     padding-bottom: 20px; }
     #contents .download_prev h2 {
@@ -1631,7 +1669,7 @@ ul li, ol li {
     min-width: 300px;
     height: 650px;
     color: #68bdc5;
-    background-color: #3c3f3f;
+    background-color: #3d3d3d;
     margin: 20px 20px;
     padding-bottom: 20px;
     display: block; }
@@ -1646,7 +1684,7 @@ ul li, ol li {
     height: auto;
     text-align: center;
     color: #68bdc5;
-    background-color: #3c3f3f;
+    background-color: #3d3d3d;
     margin: 20px auto;
     padding-bottom: 20px; }
     #contents .adopted1 h3 {
@@ -1732,7 +1770,7 @@ ul li, ol li {
     min-width: 300px;
     height: 380px;
     min-height: 300px;
-    background-color: #848a8a; }
+    background-color: #515252; }
     #contents .help_sections img:hover {
       opacity: 0.5; }
   #contents .help_sections_set h2 {
@@ -1749,7 +1787,7 @@ ul li, ol li {
     height: auto; }
   #contents .documentation_tutorial_bg {
     width: 100%;
-    background-color: #68bdc5;
+    background-color: #d1dddd;
     padding-top: 50px;
     padding-bottom: 400px; }
   #contents .documentation_tutorial_set {
@@ -1793,7 +1831,7 @@ ul li, ol li {
     height: 300px;
     margin-right: auto;
     margin-left: auto;
-    background-color: #848a8a; }
+    background-color: #515252; }
     #contents .locale_sections img {
       width: 100%;
       max-width: 200px;
@@ -1816,7 +1854,7 @@ ul li, ol li {
     margin-left: auto;
     margin-bottom: 50px; }
   #contents .support_bg {
-    background-color: #bbdada;
+    background-color: #d1dddd;
     background-size: 100%;
     padding: 30px; }
   #contents .supprot_github_section {
@@ -1824,7 +1862,7 @@ ul li, ol li {
   /*サンプルエフェクト*/
   #contents .contribute_title_bg {
     width: 100%;
-    background-color: #bbdada;
+    background-color: #d1dddd;
     padding: 50px; }
   #contents .contribute_title_set {
     width: 80%;
@@ -1872,7 +1910,7 @@ ul li, ol li {
   #contents .sample_effect p {
     width: 270px;
     height: auto;
-    background-color: #848a8a;
+    background-color: #515252;
     margin: 20px;
     padding-top: 3px; }
   #contents .sample_effect2 p {
@@ -1900,7 +1938,7 @@ ul li, ol li {
   #contents .sample_effect_next p {
     width: 270px;
     height: auto;
-    background-color: #848a8a;
+    background-color: #515252;
     margin: 20px;
     padding-top: 3px; }
   #contents .mail_setting {
@@ -1909,7 +1947,7 @@ ul li, ol li {
     display: flex;
     text-align: center;
     max-width: 1200px;
-    background-color: #e9eeee;
+    background-color: #e2e5e5;
     display: -webkit-flex;
     flex-direction: row;
     -webkit-justify-content: center;
