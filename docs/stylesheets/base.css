@@ -147,7 +147,7 @@ ul li, ol li {
 #contents .download_section1 img {
   width: 80%;
   max-width: 400px;
-  min-width: 300px;
+  min-width: 250px;
   height: auto; }
 
 /*サポートページのimg設定　*/
@@ -242,7 +242,7 @@ ul li, ol li {
 /*サンプルエフェクトボタン詳細*/
 #contents .contribute_effect_title {
   max-width: 1200px;
-  min-width: 300px;
+  min-width: 250px;
   height: auto;
   display: flex;
   flex-wrap: wrap;
@@ -293,7 +293,7 @@ ul li, ol li {
   #contents .top_index {
     width: 100%;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     text-align: center;
     margin-right: auto;
     margin-left: auto; }
@@ -450,7 +450,7 @@ ul li, ol li {
     .start_image img {
       width: 100%;
       max-width: 600px;
-      min-width: 280px;
+      min-width: 250px;
       height: auto; }
   #contents .top_section {
     width: 60%;
@@ -495,13 +495,7 @@ ul li, ol li {
   #contents .section2_setting p {
     font-size: 1em;
     text-align: center; }
-  #contents .movie_section1 {
-    max-width: 320px;
-    min-width: 200px;
-    height: auto;
-    margin-right: auto;
-    margin-left: auto; }
-  #contents .movie_section2 {
+  #contents .movie_section {
     max-width: 320px;
     min-width: 200px;
     height: auto;
@@ -514,7 +508,7 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     background-color: #e2e5e5;
     margin-top: 50px;
     margin-right: auto;
@@ -531,7 +525,7 @@ ul li, ol li {
     height: auto; }
   #contents .download_section_links {
     width: 100%;
-    min-width: 280px;
+    min-width: 250px;
     text-align: center;
     padding-left: auto;
     padding-right: auto; }
@@ -544,7 +538,7 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     background-color: #d1dddd;
     margin-top: 50px;
     margin-right: auto;
@@ -567,7 +561,7 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     background-color: #e9eeee;
     margin-top: 50px;
     margin-right: auto;
@@ -596,7 +590,7 @@ ul li, ol li {
   #contents .news_section {
     width: 100%;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     background-color: #d1dddd;
     height: auto;
     text-align: center;
@@ -607,7 +601,7 @@ ul li, ol li {
     padding-bottom: 50px; }
     #contents .news_section ul, #contents .news_section li {
       width: 80%;
-      min-width: 280px;
+      min-width: 250px;
       color: #3c3f3f;
       list-style: none;
       text-align: left;
@@ -621,7 +615,7 @@ ul li, ol li {
     text-align: center;
     background-color: #e2e5e5;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     margin-top: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -662,7 +656,7 @@ ul li, ol li {
     .start_image img {
       width: 80%;
       max-width: 600px;
-      min-width: 200px;
+      min-width: 250px;
       height: auto; }
   /*紹介*/
   #contents .introduction_section1 {
@@ -684,7 +678,7 @@ ul li, ol li {
       margin-bottom: 50px;
       font-size: 1em; }
   #contents .introduction_sec2img {
-    min-width: 280px;
+    min-width: 250px;
     margin-right: auto;
     margin-left: auto; }
     #contents .introduction_sec2img img {
@@ -720,7 +714,7 @@ ul li, ol li {
   #contents .download_contents_topset {
     width: 100%;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     margin-right: auto;
     margin-left: auto; }
   #contents .download_contents_set {
@@ -729,7 +723,7 @@ ul li, ol li {
     display: flex;
     text-align: center;
     max-width: 650px;
-    min-width: 280px;
+    min-width: 250px;
     margin-right: auto;
     margin-left: auto;
     background-color: #e2e5e5;
@@ -737,7 +731,7 @@ ul li, ol li {
   #contents .download_contents {
     width: 100%;
     max-width: 300px;
-    min-width: 280px;
+    min-width: 250px;
     height: auto;
     text-align: center;
     display: block;
@@ -771,7 +765,7 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 650px;
-    min-width: 280px;
+    min-width: 250px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -786,16 +780,13 @@ ul li, ol li {
   #contents .adoption_allset {
     width: 100%;
     max-width: 650px;
-    min-width: 280px;
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    min-width: 250px;
     margin-right: auto;
     margin-left: auto; }
   #contents .adoption_allset1 {
     width: 100%;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     margin-right: auto;
     margin-left: auto; }
   #contents .adoption_allset h2 {
@@ -807,13 +798,13 @@ ul li, ol li {
   #contents .adoption_title {
     width: 100%;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     margin-right: auto;
     margin-left: auto; }
   #contents .adopted {
     width: 100%;
     max-width: 500px;
-    min-width: 280px;
+    min-width: 200px;
     height: auto;
     text-align: center;
     color: #68bdc5;
@@ -823,7 +814,7 @@ ul li, ol li {
   #contents .adopted1 {
     width: 100%;
     max-width: 500px;
-    min-width: 280px;
+    min-width: 200px;
     height: auto;
     text-align: center;
     color: #68bdc5;
@@ -890,7 +881,7 @@ ul li, ol li {
     display: block;
     text-align: left;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px; }
@@ -904,16 +895,33 @@ ul li, ol li {
       margin-top: 20px;
       margin-left: 50px;
       margin-right: 50px; }
+  #contents .help_sections_allsetting {
+    width: 100%;
+    max-height: auto;
+    display: flex;
+    text-align: center;
+    max-width: 650px;
+    min-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-wrap: wrap; }
   #contents .help_sections_set {
-    display: block;
-    text-align: center; }
+    width: 100%;
+    max-width: 650px;
+    min-width: 250px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px; }
   #contents .help_links {
     padding-bottom: 20px; }
   #contents .help_sections {
     max-width: 255px;
     min-width: 100px;
     height: auto;
-    min-height: 300px;
+    min-height: 250px;
     background-color: #515252;
     margin: 20px; }
     #contents .help_sections img:hover {
@@ -926,6 +934,10 @@ ul li, ol li {
     color: #bbdada;
     padding-top: 15px;
     margin: 20px; }
+  #contents .help_sections_set .help_imgsec img {
+    width: 100%;
+    max-width: 180px;
+    height: auto; }
   #contents .help_sections_set img {
     max-width: 100%;
     max-width: 100px;
@@ -936,7 +948,7 @@ ul li, ol li {
     text-align: left;
     background-color: #d1dddd;
     max-width: 650px;
-    min-width: 280px;
+    min-width: 250px;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto; }
@@ -957,7 +969,7 @@ ul li, ol li {
     display: flex;
     text-align: center;
     max-width: 650px;
-    min-width: 280px;
+    min-width: 250px;
     margin-right: auto;
     margin-left: auto;
     flex-wrap: wrap;
@@ -965,7 +977,7 @@ ul li, ol li {
   #contents .tutorial_sections {
     width: 100%;
     max-width: 650px;
-    min-width: 280px;
+    min-width: 250px;
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -976,7 +988,7 @@ ul li, ol li {
       opacity: 0.5; }
   #contents .locale_sections {
     max-width: 250px;
-    min-width: 280px;
+    min-width: 250px;
     height: auto;
     min-height: 300px;
     margin-right: auto;
@@ -997,7 +1009,7 @@ ul li, ol li {
   #contents .supprot_section {
     width: 80%;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     display: inline-block;
     vertical-align: top; }
   #contents .supprot_section p {
@@ -1009,7 +1021,7 @@ ul li, ol li {
   #contents .support_grid {
     width: 80%;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     height: auto;
     text-align: center;
     display: block;
@@ -1022,7 +1034,7 @@ ul li, ol li {
   #contents .support_bg {
     width: 100%;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     background-color: #d1dddd;
     margin-right: auto;
     margin-left: auto;
@@ -1033,7 +1045,7 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     background-color: #e2e5e5;
     margin-top: 50px;
     margin-right: auto;
@@ -1049,14 +1061,14 @@ ul li, ol li {
   #contents .contribute_title_set {
     width: 100%;
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     text-align: center;
     margin: 20px;
     margin-right: auto;
     margin-left: auto; }
   #contents .contribute_title_set .contribute_title {
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     text-align: center;
     padding-bottom: 10px; }
     #contents .contribute_title_set .contribute_title p {
@@ -1301,25 +1313,41 @@ ul li, ol li {
     display: -webkit-flex;
     -webkit-justify-content: center;
     justify-content: center;
-    min-height: 300px;
+    min-height: 250px;
+    align-content: center;
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 100px; }
-  #contents .section2_setting p {
-    font-size: 1.2em;
-    text-align: center; }
-  #contents .movie_section1 {
-    max-width: 70%;
-    min-width: 25%;
-    height: 300px;
+    #contents .section2_setting .section2_setting p {
+      font-size: 1.2em;
+      text-align: center; }
+  #contents .movie_section {
+    display: grid;
+    width: 100%;
+    max-width: 1200px;
+    min-width: 900px;
+    height: auto;
     margin-right: auto;
-    margin-left: auto; }
-  #contents .movie_section2 {
-    max-width: 70%;
-    min-width: 25%;
-    height: 300px;
-    margin-right: auto;
-    margin-left: auto; }
+    margin-left: auto;
+    margin-top: 50px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr; }
+    #contents .movie_section .movie1 {
+      max-width: 500px;
+      min-width: 300px;
+      height: 300px; }
+    #contents .movie_section .movie2 {
+      max-width: 500px;
+      min-width: 300px;
+      height: 300px;
+      order: 1; }
+    #contents .movie_section p {
+      width: 300px;
+      height: 80px;
+      font-size: 1.5em;
+      margin-top: 160px;
+      margin-right: auto;
+      margin-left: auto; }
   #contents .section3_bg {
     display: flex;
     max-width: 1200px;
@@ -1426,7 +1454,7 @@ ul li, ol li {
     margin-right: auto;
     padding-bottom: 50px; }
   #contents .books_top {
-    width: 300px;
+    width: 250px;
     height: auto;
     margin-left: auto;
     margin-left: auto; }
@@ -1480,7 +1508,7 @@ ul li, ol li {
     display: block;
     text-align: center;
     max-width: 1200px;
-    min-width: 300px;
+    min-width: 250px;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -1492,7 +1520,7 @@ ul li, ol li {
     text-align: center;
     display: -webkit-flex;
     max-width: 1200px;
-    min-width: 300px;
+    min-width: 250px;
     text-align: center;
     -webkit-justify-content: center;
     justify-content: center;
@@ -1510,10 +1538,10 @@ ul li, ol li {
       width: 100%;
       height: auto;
       max-width: 800px;
-      min-width: 400px; }
+      min-width: 250px; }
   #contents .releasenote_iframe {
     max-width: 600px;
-    min-width: 400px;
+    min-width: 250px;
     text-align: center;
     margin-right: auto;
     margin-left: auto; }
@@ -1553,7 +1581,7 @@ ul li, ol li {
     width: auto; }
     #contents .introduction_section2 img {
       width: 100%;
-      min-width: 280px;
+      min-width: 250px;
       height: auto; }
   #contents .introduction_section3 {
     width: auto;
@@ -1573,7 +1601,7 @@ ul li, ol li {
       z-index: 5;
       border-radius: 50%; }
     #contents .introduction_section3 p {
-      width: 300px;
+      width: 250px;
       margin-top: 90px;
       margin-right: 80px;
       margin-left: 80px;
@@ -1601,7 +1629,7 @@ ul li, ol li {
     display: flex;
     text-align: center;
     max-width: 1200px;
-    min-width: 300px;
+    min-width: 250px;
     margin-right: auto;
     margin-left: auto;
     background-color: #e9eeee;
@@ -1629,7 +1657,7 @@ ul li, ol li {
     display: 2600px;
     text-align: center;
     max-width: 1200px;
-    min-width: 300px;
+    min-width: 250px;
     margin-right: auto;
     margin-left: auto;
     background-color: #d1dddd;
@@ -1666,7 +1694,7 @@ ul li, ol li {
     margin: 50px; }
   #contents .adopted {
     max-width: 500px;
-    min-width: 300px;
+    min-width: 250px;
     height: 650px;
     color: #68bdc5;
     background-color: #3d3d3d;
@@ -1748,6 +1776,26 @@ ul li, ol li {
     grid-row-gap: 10px;
     grid-column-gap: 10px; }
   /*ドキュメント*/
+  #contents .help_sections_allsetting {
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-bottom: 50px; }
+  #contents .help_sections_set {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 300px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
   #contents .documentation_top_set {
     width: 100%;
     display: block;
@@ -1761,18 +1809,12 @@ ul li, ol li {
       margin-top: 50px; }
     #contents .documentation_top_set p {
       margin: 20px; }
-  #contents .help_sections_set {
-    display: block;
-    text-align: center;
-    margin: 50px; }
   #contents .help_sections {
-    max-width: 500px;
-    min-width: 300px;
-    height: 380px;
-    min-height: 300px;
     background-color: #515252; }
     #contents .help_sections img:hover {
       opacity: 0.5; }
+  #contents .help_links {
+    margin: 20px; }
   #contents .help_sections_set h2 {
     color: #3c3f3f; }
   #contents .help_sections_set h3 {
@@ -1781,8 +1823,12 @@ ul li, ol li {
     color: #bbdada;
     padding-top: 15px;
     margin: 20px; }
+  #contents .help_sections_set .help_imgsec img {
+    width: 100%;
+    max-width: 280px;
+    height: auto; }
   #contents .help_sections_set img {
-    max-width: 100%;
+    width: 100%;
     max-width: 180px;
     height: auto; }
   #contents .documentation_tutorial_bg {
