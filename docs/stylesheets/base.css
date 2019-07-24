@@ -7,13 +7,13 @@
 /*間隔設定*/
 /*アドレスの文字カラー*/
 a:link {
-  color: #3c3f3f; }
+  color: #849494; }
 
 a:visited {
   color: #68bdc5; }
 
 a:active {
-  color: #515252; }
+  color: #848a8a; }
 
 #contents .adoption_allset a:link {
   color: #ffffff; }
@@ -340,7 +340,7 @@ ul li, ol li {
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
-    height: 60px;
+    height: 30px;
     padding: 0 20px;
     top: 20px;
     left: 0;
@@ -348,7 +348,7 @@ ul li, ol li {
   #header .nav-toggle .menu-trigger {
     display: inline-block;
     position: relative;
-    width: 36px;
+    width: 30px;
     height: 28px;
     vertical-align: middle;
     cursor: pointer; }
@@ -358,7 +358,7 @@ ul li, ol li {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 4px;
+    height: 3px;
     background-color: #68bdc5;
     transition: all .5s .2s; }
   #header .nav-toggle .menu-trigger.active span {
@@ -366,7 +366,7 @@ ul li, ol li {
   #header .nav-toggle .menu-trigger span:nth-of-type(1) {
     top: 0; }
   #header .nav-toggle .menu-trigger.active span:nth-of-type(1) {
-    transform: translateY(12px) rotate(-45deg); }
+    transform: translateY(13px) rotate(-45deg); }
   #header .nav-toggle .menu-trigger span:nth-of-type(2) {
     top: 12px; }
   #header .nav-toggle .menu-trigger.active span:nth-of-type(2) {
@@ -743,8 +743,11 @@ ul li, ol li {
     #contents .download_contents img {
       width: 80%;
       height: auto; }
+    #contents .download_contents h3 {
+      color: #849494; }
     #contents .download_contents p {
-      margin: 20px; }
+      margin: 20px;
+      color: #d1dddd; }
   #contents .introduction_section4 {
     width: auto;
     padding-top: 10px;
@@ -1117,7 +1120,8 @@ ul li, ol li {
     padding-top: 3px; }
   /*投稿エフェクト中ページ*/
   #contents .contribute_title .contribute_inner {
-    text-align: left; }
+    text-align: left;
+    margin-left: 20px; }
   #contents .contribute_inner_text {
     padding-bottom: 100px; }
     #contents .contribute_inner_text ul {
@@ -1646,8 +1650,11 @@ ul li, ol li {
     #contents .download_contents img {
       width: 80%;
       height: auto; }
+    #contents .download_contents h3 {
+      color: #849494; }
     #contents .download_contents p {
-      margin: 20px; }
+      margin: 20px;
+      color: #d1dddd; }
   /*ダウンロードの過去のバージョン*/
   #contents .download_prev {
     width: 100%;
